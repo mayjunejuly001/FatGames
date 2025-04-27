@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76d5a87a1395c6a439b4ffccfaee3ecc, type: 3}
+  m_Name: Level_Demo
+  m_EditorClassIdentifier: 
+  traySpawnDatas:
+  - coordinate: {x: 1, y: 1}
+    trayData: {fileID: 11400000, guid: eabea2aa05b03ec48b7a1425467561d6, type: 2}
+  - coordinate: {x: 3, y: 2}
+    trayData: {fileID: 11400000, guid: 30d7748eb0cbcce49a24d38352062a04, type: 2}
+  - coordinate: {x: 1, y: 3}
+    trayData: {fileID: 11400000, guid: 4bb1086624d0e7e4e87c72aa445685c3, type: 2}
+  - coordinate: {x: 2, y: 3}
+    trayData: {fileID: 11400000, guid: 1dccf1c435390954987a40df6a35eb63, type: 2}
+  - coordinate: {x: 4, y: 3}
+    trayData: {fileID: 11400000, guid: d508c79c19b0ce4498e040c506e49729, type: 2}
+  - coordinate: {x: 1, y: 4}
+    trayData: {fileID: 11400000, guid: 53d37e48392820d4f9268a7e444645a2, type: 2}
+  - coordinate: {x: 3, y: 4}
+    trayData: {fileID: 11400000, guid: 7b81022e3e3478a4c918ebd01f3a0d4f, type: 2}
+  - coordinate: {x: 1, y: 5}
+    trayData: {fileID: 11400000, guid: ede5697bc57e83a4a87e6d8d26b817fc, type: 2}
+  - coordinate: {x: 2, y: 5}
+    trayData: {fileID: 11400000, guid: 4bb1086624d0e7e4e87c72aa445685c3, type: 2}
+  - coordinate: {x: 3, y: 5}
+    trayData: {fileID: 11400000, guid: 8a6fce9f78cdf42499ac5a7c44c0d921, type: 2}
+  - coordinate: {x: 3, y: 7}
+    trayData: {fileID: 11400000, guid: 4bb1086624d0e7e4e87c72aa445685c3, type: 2}
+  - coordinate: {x: 4, y: 7}
+    trayData: {fileID: 11400000, guid: 1dccf1c435390954987a40df6a35eb63, type: 2}
