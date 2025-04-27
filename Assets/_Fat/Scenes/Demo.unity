@@ -356,7 +356,6 @@ MonoBehaviour:
   stopDistance: 0.2
   debugTrayPositions: 1
   debugOverlapBoxes: 0
-  boxSizeDividerAddition: 0.1
 --- !u!114 &1126866012 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9096629377294127447, guid: 6672e684791a0504c823ff7747f4d04c, type: 3}
@@ -620,8 +619,8 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 307082256}
   - {fileID: 1217133534}
+  - {fileID: 307082256}
   - {fileID: 1302422425}
   - {fileID: 2178094935245629440}
   - {fileID: 1006955149}
