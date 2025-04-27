@@ -238,7 +238,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 0.3
@@ -354,7 +354,7 @@ MonoBehaviour:
   trayGridSnapTime: 0.2
   moveSpeed: 16
   stopDistance: 0.2
-  debugTrayPositions: 1
+  debugTrayPositions: 0
   debugOverlapBoxes: 0
 --- !u!114 &1126866012 stripped
 MonoBehaviour:
@@ -534,7 +534,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 1217133531}
-  camHeightMultiplier: 2
+  camHeightMultiplierRange: {x: 2.8, y: 3.5}
 --- !u!4 &1302422425
 Transform:
   m_ObjectHideFlags: 0

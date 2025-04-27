@@ -6,7 +6,7 @@ namespace FatTray
     public class CameraHandler : MonoBehaviour
     {
         [SerializeField] private Camera cam;
-        [SerializeField] private float camHeightMultiplier = 1.5f;
+        [SerializeField] private Vector2 camHeightMultiplierRange = new Vector2(2.8f, 3.5f);
 
         private void OnEnable()
         {
@@ -20,7 +20,8 @@ namespace FatTray
 
         private void InitializeCamera(Vector3 gridPosition, Vector2Int gridSize)
         {
-            cam.transform.position = new Vector3(gridPosition.x + gridSize.x / 2f, Math.Max(gridSize.x, gridSize.y) / 2f * camHeightMultiplier, gridPosition.z + gridSize.y / 2f);
+            float heightMul = Mathf.Lerp(camHeightMultiplierRange.x, camHeightMultiplierRange.y, Mathf.InverseLerp(9f / 16f, 9f / 21f, (float)Screen.width / (float)Screen.height));
+            cam.transform.position = new Vector3(gridPosition.x + gridSize.x / 2f, Math.Max(gridSize.x, gridSize.y) / 2f * heightMul, gridPosition.z + gridSize.y / 2f);
         }
     }
 }
